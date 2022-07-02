@@ -1,20 +1,31 @@
 package com.example.worldcapitalsquiz
 
-import android.window.SplashScreen
 import androidx.compose.runtime.Composable
-import androidx.navigation.NavHostController
+import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import androidx.navigation.compose.rememberNavController
+import androidx.navigation.navArgument
 
 
 @Composable
-fun Navigation(navController: NavHostController) {
-    NavHost(navController = navController, startDestination = "main_screen") {
-        composable("game_screen") {
-            GameScreen(navController = navController)
-        }
-        composable("main_screen") {
+fun Navigation() {
+    val navController = rememberNavController()
+    NavHost(navController = navController, startDestination = Screen.MainScreen.route) {
+        composable(route = Screen.MainScreen.route){
             MainScreen(navController = navController)
+        }
+        composable(
+            route = Screen.GameScreen.route + "/{name}",
+            arguments = listOf(
+                navArgument("name"){
+                    type = NavType.StringType
+                    //defaultValue
+                    nullable = true
+                }
+            )
+        ){ entry ->
+            GameScreen(name = entry.arguments?.getString("name"))
         }
     }
 }

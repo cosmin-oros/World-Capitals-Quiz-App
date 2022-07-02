@@ -28,8 +28,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             WorldCapitalsQuizTheme {
-                val navController = rememberNavController()
-                MainScreen(navController = navController)
+                Navigation()
             }
         }
     }

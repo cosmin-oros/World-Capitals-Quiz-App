@@ -8,10 +8,14 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 
 @Composable
-fun GameScreen(navController: NavHostController) {
+fun GameScreen(name: String?) {
     Column(
         modifier = Modifier.fillMaxSize()
     ) {
-        Text(text = "to do")
+        if (name == "0"){
+            //show names
+        }else if (name == "1"){
+            //don't show names
+        }
     }
 }

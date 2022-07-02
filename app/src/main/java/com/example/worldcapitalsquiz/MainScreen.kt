@@ -15,11 +15,10 @@ import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.navigation.NavHostController
-import kotlinx.coroutines.launch
+import androidx.navigation.NavController
 
 @Composable
-fun MainScreen(navController: NavHostController) {
+fun MainScreen(navController: NavController) {
     val scaffoldState = rememberScaffoldState()
     val scope = rememberCoroutineScope()
     var textFieldState by remember{
@@ -56,7 +55,7 @@ fun MainScreen(navController: NavHostController) {
 
             Row {
                 Button(onClick = {
-                    navController.navigate("game_screen")
+                    navController.navigate(Screen.GameScreen.withArgs("0"))
                 },
                     colors = ButtonDefaults.buttonColors(
                         backgroundColor = Color.Transparent,
@@ -86,7 +85,7 @@ fun MainScreen(navController: NavHostController) {
                 Spacer(modifier = Modifier.width(32.dp))
 
                 Button(onClick = {
-                    navController.navigate("game_screen")
+                    navController.navigate(Screen.GameScreen.withArgs("1"))
                 },
                     colors = ButtonDefaults.buttonColors(
                         backgroundColor = Color.Transparent,
