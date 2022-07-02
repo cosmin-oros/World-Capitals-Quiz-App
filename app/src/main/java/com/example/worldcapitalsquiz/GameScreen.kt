@@ -29,4 +29,5 @@ fun GameScreen(name: String?) {
             //don't show names
         }
     }
+    //add check and skip button
 }
