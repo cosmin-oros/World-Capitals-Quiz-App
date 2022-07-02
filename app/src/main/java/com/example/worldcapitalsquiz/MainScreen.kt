@@ -24,13 +24,6 @@ fun MainScreen(navController: NavController) {
     var textFieldState by remember{
         mutableStateOf("")
     }
-    //get the list of countries and sort by the name of the capital
-    val countriesList = ListOfCountries.getData()
-    countriesList.sortedBy { country->
-        country.capital
-    }
-    //percentage of the circular progress bar
-    var percentage = 0F
 
     Scaffold(
         modifier = Modifier.fillMaxSize(),
