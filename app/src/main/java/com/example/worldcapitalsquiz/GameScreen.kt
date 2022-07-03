@@ -109,7 +109,7 @@ fun GameScreen(name: String?) {
                            }
                        }
 
-                       if (counter == 194){
+                       if (counter == 192){
                            scope.launch {
                                scaffoldState.snackbarHostState.showSnackbar("Congratulations you got $guessed out of 195")
                                textFieldState = ""
@@ -155,7 +155,7 @@ fun GameScreen(name: String?) {
                         country.value = getCountry(countriesList, counter)
                         textFieldState = ""
 
-                        if (counter == 194){
+                        if (counter == 192){
                             scope.launch {
                                 scaffoldState.snackbarHostState.showSnackbar("Congratulations you got $guessed out of 195")
                                 textFieldState = ""
@@ -194,7 +194,7 @@ fun GameScreen(name: String?) {
                 }
             }
 
-            Spacer(modifier = Modifier.size(32.dp))
+            Spacer(modifier = Modifier.size(64.dp))
 
             Row {
                 ExpandableCard(
@@ -204,7 +204,7 @@ fun GameScreen(name: String?) {
 
                 Spacer(modifier = Modifier.width(32.dp))
 
-                CircularProgressBar(percentage = percentage, number = 195)
+                CircularProgressBar(percentage = percentage, number = 193)
 
             }
 

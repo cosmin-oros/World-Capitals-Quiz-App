@@ -20,6 +20,12 @@ object ListOfCountries {
                 capital = "Alger",
                 flagId = R.drawable.algeria,
                 hint = "It is considered to be a part of the Maghreb region of North Africa."
+            ),
+            CountriesData(
+                country = "Andorra",
+                capital = "Andorra la Vella",
+                flagId = R.drawable.andorra,
+                hint = "The official language is Catalan, but Spanish, Portuguese, and French are also commonly spoken."
             )
         )
     }
