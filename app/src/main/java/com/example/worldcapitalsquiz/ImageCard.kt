@@ -21,18 +21,17 @@ import androidx.compose.ui.unit.sp
 fun ImageCard(
     painter: Painter,
     contentDescription: String,
-    title: String,
     modifier: Modifier = Modifier
 ) {
     Card(
-        modifier = modifier.fillMaxWidth(),
+        modifier = modifier.fillMaxWidth(0.3f),
         shape = RoundedCornerShape(15.dp),
         elevation = 5.dp    //shadow
     ) {
         //items stacked on top of each other
         Box(
             modifier = Modifier
-                .height(300.dp)
+                .height(60.dp)
 
         ){
             //what's first is at the bottom of the stack
@@ -54,20 +53,11 @@ fun ImageCard(
                                 Color.Transparent,
                                 Color.Black
                             ),
-                            startY = 300f   //change based on where the box is put
+                            startY = 100f   //change based on where the box is put
                         )
                     )
             )
 
-            //text
-            Box(
-                modifier = Modifier
-                    .fillMaxSize()
-                    .padding(12.dp), //so it's not completely at the bottom
-                contentAlignment = Alignment.BottomStart
-            ){
-                Text(title, style = TextStyle(color = Color.White), fontSize = 16.sp)
-            }
 
         }
     }
