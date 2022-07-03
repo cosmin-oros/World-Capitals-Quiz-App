@@ -53,6 +53,7 @@ fun GameScreen(name: String?) {
             var painter = painterResource(id = country.value.flagId)
             var countryName = country.value.country
             var capitalName = country.value.capital
+            var hint = country.value.hint
 
             if (name == "0"){
                 Text(text = countryName)
@@ -194,6 +195,20 @@ fun GameScreen(name: String?) {
                 {
                     Text(text = "Skip")
                 }
+            }
+
+            Spacer(modifier = Modifier.size(32.dp))
+
+            Row {
+                ExpandableCard(
+                    title = "Hint",
+                    description = hint
+                )
+
+                Spacer(modifier = Modifier.width(32.dp))
+
+
+
             }
 
 
