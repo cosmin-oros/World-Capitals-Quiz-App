@@ -101,7 +101,7 @@ fun GameScreen(name: String?) {
                            country.value = getCountry(countriesList, counter)
                            guessed++
                            textFieldState = ""
-                           percentage += 0.01F
+                           percentage += 0.0052F
                        }else{
                            scope.launch {
                                scaffoldState.snackbarHostState.showSnackbar("Try again")

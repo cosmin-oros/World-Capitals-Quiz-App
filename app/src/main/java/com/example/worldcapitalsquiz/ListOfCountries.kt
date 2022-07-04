@@ -31,7 +31,7 @@ object ListOfCountries {
                 country = "Angola",
                 capital = "Luanda",
                 flagId = R.drawable.angola,
-                hint = "It is the second-largest Lusophone (Portuguese-speaking) country in both total area and population, and is the seventh-largest country in Africa."
+                hint = "It is the second-largest Portuguese-speaking country in both total area and population, and is the seventh-largest country in Africa."
             ),
             CountriesData(
                 country = "Antigua and Barbuda",
