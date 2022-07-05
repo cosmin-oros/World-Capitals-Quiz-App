@@ -92,6 +92,30 @@ object ListOfCountries {
                 capital = "Bridgetown",
                 flagId = R.drawable.barbados,
                 hint = "It is an island country in the Lesser Antilles of the West Indies, in the Caribbean region of the Americas."
+            ),
+            CountriesData(
+                country = "Belarus",
+                capital = "Minsk",
+                flagId = R.drawable.belarus,
+                hint = "During the dissolution of the Soviet Union, they declared independence on 25 August 1991."
+            ),
+            CountriesData(
+                country = "Belgium",
+                capital = "Brussels",
+                flagId = R.drawable.belgium,
+                hint = "It is home to two main linguistic communities: the Dutch-speaking Flemish Community and the French-speaking Community"
+            ),
+            CountriesData(
+                country = "Belize",
+                capital = "Belmopan",
+                flagId = R.drawable.belize,
+                hint = "It is a country on the northeastern coast of Central America."
+            ),
+            CountriesData(
+                country = "Benin",
+                capital = "Porto Novo",
+                flagId = R.drawable.benin,
+                hint = "The majority of its population lives on the small southern coastline"
             )
         )
     }
