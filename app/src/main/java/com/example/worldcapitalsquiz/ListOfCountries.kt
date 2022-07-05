@@ -68,6 +68,30 @@ object ListOfCountries {
                 capital = "Baku",
                 flagId = R.drawable.azerbaijan,
                 hint = "It is a transcontinental country located at the boundary of Eastern Europe and Western Asia."
+            ),
+            CountriesData(
+                country = "Bahamas",
+                capital = "Nassau",
+                flagId = R.drawable.bahamas,
+                hint = "It is a country within the Lucayan Archipelago of the West Indies in the Atlantic."
+            ),
+            CountriesData(
+                country = "Bahrain",
+                capital = "Manama",
+                flagId = R.drawable.bahrain,
+                hint = "It is an island country in Western Asia."
+            ),
+            CountriesData(
+                country = "Bangladesh",
+                capital = "Dacca",
+                flagId = R.drawable.bangladesh,
+                hint = "It forms the sovereign part of the historic and ethnolinguistic region of Bengal."
+            ),
+            CountriesData(
+                country = "Barbados",
+                capital = "Bridgetown",
+                flagId = R.drawable.barbados,
+                hint = "It is an island country in the Lesser Antilles of the West Indies, in the Caribbean region of the Americas."
             )
         )
     }
