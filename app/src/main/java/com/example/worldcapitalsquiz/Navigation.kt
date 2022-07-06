@@ -11,7 +11,10 @@ import androidx.navigation.navArgument
 @Composable
 fun Navigation() {
     val navController = rememberNavController()
-    NavHost(navController = navController, startDestination = Screen.MainScreen.route) {
+    NavHost(navController = navController, startDestination = Screen.SplashScreen.route) {
+        composable(route = Screen.SplashScreen.route){
+            SplashScreen(navController = navController)
+        }
         composable(route = Screen.MainScreen.route){
             MainScreen(navController = navController)
         }
