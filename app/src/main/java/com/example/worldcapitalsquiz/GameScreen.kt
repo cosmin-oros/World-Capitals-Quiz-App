@@ -209,7 +209,7 @@ fun GameScreen(name: String?) {
 
         }
     }
-    //add check and skip button
+    // !!! implement something when the game end !!!
 }
 
 fun getCountry(countriesList: List<CountriesData>, counter: Int): CountriesData{
