@@ -135,6 +135,48 @@ object ListOfCountries {
                 flagId = R.drawable.benin,
                 hint = "The majority of its population lives on the small southern coastline",
                 order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Bhutan",
+                capital = "Thimphu",
+                flagId = R.drawable.bhutan,
+                hint = "It is a landlocked country in the Eastern Himalayas",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Bolivia",
+                capital = "Sucre",
+                flagId = R.drawable.bolivia,
+                hint = "Spanish is the official and predominant language, although 36 indigenous languages also have official status.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Bosnia and Herzegovina",
+                capital = "Sarajevo",
+                flagId = R.drawable.bosniaandherzegovina,
+                hint = "It is a country at the crossroads of south and southeast Europe, located in the Balkans.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Botswana",
+                capital = "Gaborone",
+                flagId = R.drawable.botswana,
+                hint = "It is a landlocked country in Southern Africa.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Brazil",
+                capital = "Brasilia",
+                flagId = R.drawable.brazil,
+                hint = "It is the largest country in both South America and Latin America.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Brunei",
+                capital = "Bandar Seri Begawan",
+                flagId = R.drawable.brunei,
+                hint = "It is a country located on the north coast of the island of Borneo in Southeast Asia.",
+                order = (1..193).random()
             )
         )
     }
