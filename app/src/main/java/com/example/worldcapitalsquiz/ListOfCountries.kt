@@ -177,6 +177,34 @@ object ListOfCountries {
                 flagId = R.drawable.brunei,
                 hint = "It is a country located on the north coast of the island of Borneo in Southeast Asia.",
                 order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Bulgaria",
+                capital = "Sofia",
+                flagId = R.drawable.bulgaria,
+                hint = "It is situated on the eastern flank of the Balkans.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Burkina Faso",
+                capital = "Ouagadougou",
+                flagId = R.drawable.burkinafaso,
+                hint = "It is a landlocked country in West Africa",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Burundi",
+                capital = "Gitega",
+                flagId = R.drawable.burundi,
+                hint = "It is a landlocked country in the Great Rift Valley where the African Great Lakes region and East Africa converge.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Cabo Verde",
+                capital = "Praia",
+                flagId = R.drawable.caboverde,
+                hint = "It is an archipelago and island country in the central Atlantic Ocean.",
+                order = (1..193).random()
             )
         )
     }
