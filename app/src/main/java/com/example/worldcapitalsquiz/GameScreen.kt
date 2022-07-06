@@ -30,10 +30,8 @@ fun GameScreen(name: String?) {
     val scaffoldState = rememberScaffoldState()
     val scope = rememberCoroutineScope()
 
-    //get the list of countries and sort by the name of the capital
-    val countriesList = ListOfCountries.getData()
-    countriesList.sortedBy { country->
-        country.capital
+    val countriesList = ListOfCountries.getData().sortedBy { country->
+        country.order
     }
     var counter = 0 //count until 195
     var guessed = 0
@@ -214,6 +212,6 @@ fun GameScreen(name: String?) {
     //add check and skip button
 }
 
-fun getCountry(countriesList: ArrayList<CountriesData>, counter: Int): CountriesData{
+fun getCountry(countriesList: List<CountriesData>, counter: Int): CountriesData{
     return countriesList[counter]
 }
