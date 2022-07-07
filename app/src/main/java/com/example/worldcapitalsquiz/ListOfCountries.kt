@@ -310,6 +310,62 @@ object ListOfCountries {
                 flagId = R.drawable.czechrepublic,
                 hint = "It is a landlocked country in Central Europe.",
                 order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Democratic Republic of Congo",
+                capital = "Kinshasa",
+                flagId = R.drawable.democraticrepublicofthecongo,
+                hint = "By area, it is the second-largest country in Africa and the 11th-largest in the world.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Denmark",
+                capital = "Copenhagen",
+                flagId = R.drawable.denmark,
+                hint = "It is a constitutionally unitary state that includes the autonomous territories of the Faroe Islands and Greenland in the North Atlantic Ocean.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Djibouti",
+                capital = "Djibouti",
+                flagId = R.drawable.djibouti,
+                hint = "In antiquity, the territory together with Ethiopia, Eritrea and Somaliland was part of the Land of Punt.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Dominica",
+                capital = "Roseau",
+                flagId = R.drawable.dominica,
+                hint = "It is an island country in the Caribbean.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Dominican Republic",
+                capital = "Santo Domingo",
+                flagId = R.drawable.dominicanrepublic,
+                hint = "It is a country located on the island of Hispaniola in the Greater Antilles archipelago of the Caribbean region.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Ecuador",
+                capital = "Quito",
+                flagId = R.drawable.ecuador,
+                hint = "The capital is located in a valley on the eastern slopes of Pichincha,[2] an active stratovolcano in the Andes, at an elevation of 2,850 m (9,350 ft), making it the second-highest capital city in the world.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Egypt",
+                capital = "Cairo",
+                flagId = R.drawable.egypt,
+                hint = "Home to the pyramids of Giza",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "El Salvador",
+                capital = "San Salvador",
+                flagId = R.drawable.elsalvador,
+                hint = "It is bordered on the northeast by Honduras, on the northwest by Guatemala, and on the south by the Pacific Ocean.",
+                order = (1..193).random()
             )
         )
     }
