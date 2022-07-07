@@ -366,6 +366,76 @@ object ListOfCountries {
                 flagId = R.drawable.elsalvador,
                 hint = "It is bordered on the northeast by Honduras, on the northwest by Guatemala, and on the south by the Pacific Ocean.",
                 order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Equatorial Guinea",
+                capital = "Malabo",
+                flagId = R.drawable.equatorialguinea,
+                hint = "It is a country on the west coast of Central Africa.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Eritrea",
+                capital = "Asmara",
+                flagId = R.drawable.eritrea,
+                hint = "It is a country in the Horn of Africa region of Eastern Africa.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Estonia",
+                capital = "Tallinn",
+                flagId = R.drawable.estonia,
+                hint = "The territory consists of the mainland, the larger islands of Saaremaa and Hiiumaa, and over 2,200 other islands and islets on the eastern coast of the Baltic Sea.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Eswatini",
+                capital = "Mbabane",
+                flagId = R.drawable.eswatini,
+                hint = "It was formerly named Swaziland",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Ethiopia",
+                capital = "Addis Abeba",
+                flagId = R.drawable.ethiopia,
+                hint = "The capital lies several kilometres west of the East African Rift that splits the country into the African and Somali tectonic plates.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Fiji",
+                capital = "Suva",
+                flagId = R.drawable.fiji,
+                hint = "It is an island country in Melanesia, part of Oceania in the South Pacific Ocean.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Finland",
+                capital = "Helsinki",
+                flagId = R.drawable.finland,
+                hint = "Finnish, alongside Swedish, are the official languages.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "France",
+                capital = "Paris",
+                flagId = R.drawable.france,
+                hint = "It is a transcontinental country spanning Western Europe and overseas regions and territories in the Americas and the Atlantic, Pacific and Indian Oceans.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Gabon",
+                capital = "Libreville",
+                flagId = R.drawable.gabon,
+                hint = "Located on the equator, it is bordered by Equatorial Guinea to the northwest, Cameroon to the north, the Republic of the Congo on the east and south, and the Gulf of Guinea to the west.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country= "Gambia",
+                capital = "Banjul",
+                flagId = R.drawable.gambia,
+                hint = "It is the smallest country within mainland Africa and is surrounded by Senegal, except for its western coast on the Atlantic Ocean.",
+                order = (1..193).random()
             )
         )
     }
