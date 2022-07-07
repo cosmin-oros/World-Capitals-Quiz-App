@@ -17,13 +17,15 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavController
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import java.util.*
 import kotlin.collections.ArrayList
 
 @SuppressLint("UnrememberedMutableState")
 @Composable
-fun GameScreen(name: String?) {
+fun GameScreen(navController: NavController, name: String?) {
     var textFieldState by remember{
         mutableStateOf("")
     }
@@ -94,23 +96,31 @@ fun GameScreen(name: String?) {
             Row {
                Button(
                    onClick = {
-                       if (textFieldState.lowercase(Locale.getDefault()) == capitalName.lowercase(Locale.getDefault())){
-                           counter++
-                           country.value = getCountry(countriesList, counter)
-                           guessed++
-                           textFieldState = ""
-                           percentage += 0.0052F
-                       }else{
-                           scope.launch {
-                               scaffoldState.snackbarHostState.showSnackbar("Try again")
+                       if (counter < 193) {
+                           if (textFieldState.lowercase(Locale.getDefault()) == capitalName.lowercase(
+                                   Locale.getDefault()
+                               )
+                           ) {
+                               counter++
+                               country.value = getCountry(countriesList, counter)
+                               guessed++
                                textFieldState = ""
+                               percentage += 0.0052F
+                           } else {
+                               scope.launch {
+                                   scaffoldState.snackbarHostState.showSnackbar("Try again")
+                                   textFieldState = ""
+                               }
                            }
                        }
 
-                       if (counter == 192){
+                       if (counter == 193){
                            scope.launch {
                                scaffoldState.snackbarHostState.showSnackbar("Congratulations you got $guessed out of 195")
                                textFieldState = ""
+
+                               delay(3000L)
+                               navController.navigate("main_screen")
                            }
                        }
                    },
@@ -149,14 +159,19 @@ fun GameScreen(name: String?) {
 
                 Button(
                     onClick = {
-                        counter++
-                        country.value = getCountry(countriesList, counter)
-                        textFieldState = ""
+                        if (counter < 193) {
+                            counter++
+                            country.value = getCountry(countriesList, counter)
+                            textFieldState = ""
+                        }
 
-                        if (counter == 192){
+                        if (counter == 193){
                             scope.launch {
                                 scaffoldState.snackbarHostState.showSnackbar("Congratulations you got $guessed out of 195")
                                 textFieldState = ""
+
+                                delay(3000L)
+                                navController.navigate("main_screen")
                             }
                         }
                     },

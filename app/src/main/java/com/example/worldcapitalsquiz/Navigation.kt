@@ -28,7 +28,7 @@ fun Navigation() {
                 }
             )
         ){ entry ->
-            GameScreen(name = entry.arguments?.getString("name"))
+            GameScreen(navController = navController,name = entry.arguments?.getString("name"))
         }
     }
 }
