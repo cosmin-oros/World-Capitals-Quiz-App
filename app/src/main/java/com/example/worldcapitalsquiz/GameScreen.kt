@@ -209,7 +209,7 @@ fun GameScreen(name: String?) {
 
         }
     }
-    // !!! implement something when the game end !!!
+    // !!! implement something when the game end / play again !!!
 }
 
 fun getCountry(countriesList: List<CountriesData>, counter: Int): CountriesData{
