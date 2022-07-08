@@ -436,6 +436,76 @@ object ListOfCountries {
                 flagId = R.drawable.gambia,
                 hint = "It is the smallest country within mainland Africa and is surrounded by Senegal, except for its western coast on the Atlantic Ocean.",
                 order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Georgia",
+                capital = "Tbilisi",
+                flagId = R.drawable.georgia,
+                hint = "It is a country located in the Caucasus, at the intersection of Eastern Europe and Western Asia.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Germany",
+                capital = "Berlin",
+                flagId = R.drawable.germany,
+                hint = "It is the second most populous country in Europe after Russia, and the most populous member state of the European Union.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Ghana",
+                capital = "Accra",
+                flagId = R.drawable.ghana,
+                hint = "It abuts the Gulf of Guinea and the Atlantic Ocean to the south, sharing borders with the Ivory Coast in the west, Burkina Faso in the north, and Togo in the east.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Greece",
+                capital = "Athens",
+                flagId = R.drawable.greece,
+                hint = "It is situated on the southern tip of the Balkans.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Grenada",
+                capital = "Saint George's",
+                flagId = R.drawable.grenada,
+                hint = "It is an island country in the West Indies in the Caribbean Sea at the southern end of the Grenadines island chain.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Guatemala",
+                capital = "Ciudad de Guatemala",
+                flagId = R.drawable.guatemala,
+                hint = "With an estimated population of around 17.2 million, it is the most populous country in Central America and is the 11th most populous country in the Americas.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Guinea",
+                capital = "Conakry",
+                flagId = R.drawable.guinea,
+                hint = "It is a coastal country in West Africa.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Guinea Bissau",
+                capital = "Bissau",
+                flagId = R.drawable.guineabissau,
+                hint = "In the 19th century, it was colonised as Portuguese Guinea.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Guyana",
+                capital = "Georgetown",
+                flagId = R.drawable.guyana,
+                hint = "It is the only English-speaking country in South America.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Haiti",
+                capital = "Port-au-Prince",
+                flagId = R.drawable.haiti,
+                hint = "It is a country located on the island of Hispaniola in the Greater Antilles archipelago of the Caribbean Sea.",
+                order = (1..193).random()
             )
         )
     }
