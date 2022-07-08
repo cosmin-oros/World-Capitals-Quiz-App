@@ -541,6 +541,34 @@ object ListOfCountries {
                 flagId = R.drawable.indonesia,
                 hint = "It is the world's largest island country, the largest archipelagic state and the 14th-largest country by area.",
                 order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Iran",
+                capital = "Tehran",
+                flagId = R.drawable.iran,
+                hint = "Also called Persia, it's a country in Western Asia",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Iraq",
+                capital = "Bagdad",
+                flagId = R.drawable.iraq,
+                hint = "It is home to diverse ethnic groups including Arabs, Kurds, Turkmens, Assyrians, Armenians, Yazidis, Mandaeans, Persians and Shabakis with similarly diverse geography and wildlife.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Ireland",
+                capital = "Dublin",
+                flagId = R.drawable.ireland,
+                hint = "It is separated from Great Britain to its east by the North Channel, the Irish Sea, and St George's Channel.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Israel",
+                capital = "Jerusalem",
+                flagId = R.drawable.israel,
+                hint = "Inhabited since the Middle Bronze Age by Canaanite tribes, it was once the setting for much of Biblical history.",
+                order = (1..193).random()
             )
         )
     }
