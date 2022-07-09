@@ -611,6 +611,62 @@ object ListOfCountries {
                 flagId = R.drawable.kazakhstan,
                 hint = "It is a transcontinental landlocked country located mainly in Central Asia and partly in Eastern Europe.",
                 order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Kenya",
+                capital = "Nairobi",
+                flagId = R.drawable.kenya,
+                hint = "As of 2020, it is the third-largest economy in sub-Saharan Africa after Nigeria and South Africa.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Kiribati",
+                capital = "Tarawa",
+                flagId = R.drawable.kiribati,
+                hint = "It is an island country in the central Pacific Ocean.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Kuwait",
+                capital = "Al-Kuwait",
+                flagId = R.drawable.kuwait,
+                hint = "It is situated in the northern edge of Eastern Arabia at the tip of the Persian Gulf, bordering Iraq to the north and Saudi Arabia to the south.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Kyrgyzstan",
+                capital = "Bishkek",
+                flagId = R.drawable.kyrgyzstan,
+                hint = "It is bordered by Kazakhstan to the north, Uzbekistan to the west, Tajikistan to the south, and China to the east.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Laos",
+                capital = "Vientiane",
+                flagId = R.drawable.laos,
+                hint = "It is a socialist state and the only landlocked country in Southeast Asia.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Latvia",
+                capital = "Riga",
+                flagId = R.drawable.latvia,
+                hint = "It is a country in the Baltic region of Northern Europe.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Lebanon",
+                capital = "Beirut",
+                flagId = R.drawable.lebanon,
+                hint = "It is located between Syria to the north and east and Israel to the south, while Cyprus lies to its west across the Mediterranean Sea.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Lesotho",
+                capital = "Maseru",
+                flagId = R.drawable.lesotho,
+                hint = "It is a landlocked country enclaved by South Africa.",
+                order = (1..193).random()
             )
         )
     }
