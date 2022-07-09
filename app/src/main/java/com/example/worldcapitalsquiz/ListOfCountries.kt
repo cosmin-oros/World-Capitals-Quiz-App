@@ -709,6 +709,41 @@ object ListOfCountries {
                 flagId = R.drawable.madagascar,
                 hint = "It is an island country in the Indian Ocean, approximately 400 kilometres (250 miles) off the coast of East Africa across the Mozambique Channel.",
                 order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Malawi",
+                capital = "Lilongwe",
+                flagId = R.drawable.malawi,
+                hint = "It is a landlocked country in Southeastern Africa that was formerly known as Nyasaland.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Malaysia",
+                capital = "Kuala Lumpur",
+                flagId = R.drawable.malaysia,
+                hint = "It is a country in Southeast Asia.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Maldives",
+                capital = "Male",
+                flagId = R.drawable.maldives,
+                hint = "It lies southwest of Sri Lanka and India, about 750 kilometres (470 miles; 400 nautical miles) from the Asian continent's mainland.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Mali",
+                capital = "Bamako",
+                flagId = R.drawable.mali,
+                hint = "The country is the third largest producer of gold on the African continent.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Malta",
+                capital = "Valletta",
+                flagId = R.drawable.malta,
+                hint = "It is an island country in the European Union consisting of an archipelago in the Mediterranean Sea, and considered part of Southern Europe.",
+                order = (1..193).random()
             )
         )
     }
