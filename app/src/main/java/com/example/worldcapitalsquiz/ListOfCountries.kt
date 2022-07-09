@@ -569,6 +569,48 @@ object ListOfCountries {
                 flagId = R.drawable.israel,
                 hint = "Inhabited since the Middle Bronze Age by Canaanite tribes, it was once the setting for much of Biblical history.",
                 order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Italy",
+                capital = "Rome",
+                flagId = R.drawable.italy,
+                hint = "It's a country that consists of a peninsula delimited by the Alps and several islands surrounding it.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Ivory Coast",
+                capital = "Yamoussoukro",
+                flagId = R.drawable.ivorycoast,
+                hint = "It is a country on the southern coast of West Africa.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Jamaica",
+                capital = "Kingston",
+                flagId = R.drawable.jamaica,
+                hint = "It it is the third-largest island of the Greater Antilles and the Caribbean (after Cuba and Hispaniola).",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Japan",
+                capital = "Tokyo",
+                flagId = R.drawable.japan,
+                hint = "It is an island country in East Asia.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Jordan",
+                capital = "Amman",
+                flagId = R.drawable.jordan,
+                hint = "It is situated at the crossroads of Asia, Africa and Europe.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Kazakhstan",
+                capital = "Nur-Sultan",
+                flagId = R.drawable.kazakhstan,
+                hint = "It is a transcontinental landlocked country located mainly in Central Asia and partly in Eastern Europe.",
+                order = (1..193).random()
             )
         )
     }
