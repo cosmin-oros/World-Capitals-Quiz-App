@@ -667,6 +667,48 @@ object ListOfCountries {
                 flagId = R.drawable.lesotho,
                 hint = "It is a landlocked country enclaved by South Africa.",
                 order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Liberia",
+                capital = "Monrovia",
+                flagId = R.drawable.liberia,
+                hint = "It is bordered by Sierra Leone to its northwest, Guinea to its north, Ivory Coast to its east, and the Atlantic Ocean to its south and southwest.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Libya",
+                capital = "Tripoli",
+                flagId = R.drawable.libya,
+                hint = "It is a country in the Maghreb region in North Africa.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Liechtenstein",
+                capital = "Vaduz",
+                flagId = R.drawable.liechtenstein,
+                hint = "It is a German-speaking microstate located in the Alps between Austria and Switzerland.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Lithuania",
+                capital = "Vilnius",
+                flagId = R.drawable.lithuania,
+                hint = "It is one of three Baltic states and lies on the eastern shore of the Baltic Sea.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Luxembourg",
+                capital = "Luxembourg",
+                flagId = R.drawable.luxembourg,
+                hint = "Its capital is one of the four official capitals of the European Union (together with Brussels, Frankfurt, and Strasbourg)",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Madagascar",
+                capital = "Antananarivo",
+                flagId = R.drawable.madagascar,
+                hint = "It is an island country in the Indian Ocean, approximately 400 kilometres (250 miles) off the coast of East Africa across the Mozambique Channel.",
+                order = (1..193).random()
             )
         )
     }
