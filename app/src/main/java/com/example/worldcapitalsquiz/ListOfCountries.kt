@@ -744,6 +744,55 @@ object ListOfCountries {
                 flagId = R.drawable.malta,
                 hint = "It is an island country in the European Union consisting of an archipelago in the Mediterranean Sea, and considered part of Southern Europe.",
                 order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Marshall Islands",
+                capital = "Majuro",
+                flagId = R.drawable.marshallislands,
+                hint = "It is an independent island country near the Equator in the Pacific Ocean, slightly west of the International Date Line.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Mauritania",
+                capital = "Nouakchott",
+                flagId = R.drawable.mauritania,
+                hint = "It is bordered by the Atlantic Ocean to the west, Western Sahara to the north and northwest, Algeria to the northeast, Mali to the east and southeast, and Senegal to the southwest.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Mauritius",
+                capital = "Port Louis",
+                flagId = R.drawable.mauritius,
+                hint = "It is an island nation in the Indian Ocean about 2,000 kilometres (1,200 mi) off the southeast coast of the African continent, east of Madagascar.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Mexico",
+                capital = "Ciudad de Mexico",
+                flagId = R.drawable.mexico,
+                hint = "It is a country in the southern portion of North America.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Micronesia",
+                capital = "Palikir",
+                flagId = R.drawable.micronesia,
+                hint = "It consists of four states – from west to east, Yap, Chuuk, Pohnpei and Kosrae – that are spread across the western Pacific.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Moldova",
+                capital = "Chisinau",
+                flagId = R.drawable.moldova,
+                hint = "It is bordered by Romania to the west and Ukraine to the north, east, and south.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Monaco",
+                capital = "Monaco",
+                flagId = R.drawable.monaco,
+                hint = "It is a sovereign city-state and microstate on the French Riviera a few kilometres west of the Italian region of Liguria, in Western Europe, on the Mediterranean Sea.",
+                order = (1..193).random()
             )
         )
     }
