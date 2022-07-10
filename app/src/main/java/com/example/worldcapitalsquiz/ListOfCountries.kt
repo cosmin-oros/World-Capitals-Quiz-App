@@ -842,6 +842,69 @@ object ListOfCountries {
                 flagId = R.drawable.nauru,
                 hint = "With only a 21 km2 (8.1 sq mi) area, it is the third-smallest country in the world behind Vatican City and Monaco, making it the smallest republic as well as the smallest island nation.",
                 order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Nepal",
+                capital = "Kathmandu",
+                flagId = R.drawable.nepal,
+                hint = "It is mainly situated in the Himalayas, but also includes parts of the Indo-Gangetic Plain.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Netherlands",
+                capital = "Amsterdam",
+                flagId = R.drawable.netherlands,
+                hint = "It is a country located in Northwestern Europe with overseas territories in the Caribbean.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "New Zealand",
+                capital = "Wellington",
+                flagId = R.drawable.newzealand,
+                hint = "It consists of two main landmasses—the North Island (Te Ika-a-Māui) and the South Island (Te Waipounamu)—and over 700 smaller islands.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Nicaragua",
+                capital = "Managua",
+                flagId = R.drawable.nicaragua,
+                hint = "It is the largest country in the Central American isthmus, bordered by Honduras to the northwest, the Caribbean to the east, Costa Rica to the south, and the Pacific Ocean to the southwest.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Niger",
+                capital = "Niamey",
+                flagId = R.drawable.niger,
+                hint = "It is listed in the Least developed countries group.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Nigeria",
+                capital = "Abuja",
+                flagId = R.drawable.nigeria,
+                hint = "It is geographically situated between the Sahel to the north and the Gulf of Guinea to the south in the Atlantic Ocean.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "North Korea",
+                capital = "Pyongyang",
+                flagId = R.drawable.northkorea,
+                hint = "It constitutes the northern half of the Korean Peninsula.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "North Macedonia",
+                capital = "Skopje",
+                flagId = R.drawable.northmacedonia,
+                hint = "It gained independence in 1991 as one of the successor states of Yugoslavia.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Norway",
+                capital = "Oslo",
+                flagId = R.drawable.norway,
+                hint = "It is a Nordic country in Northern Europe, the mainland territory of which comprises the western and northernmost portion of the Scandinavian Peninsula.",
+                order = (1..193).random()
             )
         )
     }
