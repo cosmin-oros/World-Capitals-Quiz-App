@@ -793,6 +793,55 @@ object ListOfCountries {
                 flagId = R.drawable.monaco,
                 hint = "It is a sovereign city-state and microstate on the French Riviera a few kilometres west of the Italian region of Liguria, in Western Europe, on the Mediterranean Sea.",
                 order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Mongolia",
+                capital = "UlaanBaatar",
+                flagId = R.drawable.mongolia,
+                hint = "It covers an area of 1,564,116 square kilometres (603,909 square miles), with a population of just 3.3 million, making it the world's most sparsely populated sovereign nation.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Montenegro",
+                capital = "Podgorica",
+                flagId = R.drawable.montenegro,
+                hint = "It is located on the Adriatic Sea and is a part of the Balkans.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Morocco",
+                capital = "Rabat",
+                flagId = R.drawable.morocco,
+                hint = "It overlooks the Mediterranean Sea to the north and the Atlantic Ocean to the west, and has land borders with Algeria to the east, and the disputed territory of Western Sahara to the south.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Mozambique",
+                capital = "Maputo",
+                flagId = R.drawable.mozambique,
+                hint = "It is a country located in Southeastern Africa bordered by the Indian Ocean to the east, Tanzania to the north, Malawi and Zambia to the northwest, Zimbabwe to the west, and Eswatini (Swaziland) and South Africa to the southwest.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Myanmar",
+                capital = "Naypyidaw",
+                flagId = R.drawable.myanmar,
+                hint = "It is the largest country in Mainland Southeast Asia, and has a population of about 54 million as of 2017.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Namibia",
+                capital = "Windhoek",
+                flagId = R.drawable.namibia,
+                hint = "It shares land borders with Zambia and Angola to the north, Botswana to the east and South Africa to the south and east.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Nauru",
+                capital = "Yaren",
+                flagId = R.drawable.nauru,
+                hint = "With only a 21 km2 (8.1 sq mi) area, it is the third-smallest country in the world behind Vatican City and Monaco, making it the smallest republic as well as the smallest island nation.",
+                order = (1..193).random()
             )
         )
     }
