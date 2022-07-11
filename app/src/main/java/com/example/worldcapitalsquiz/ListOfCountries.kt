@@ -1031,6 +1031,41 @@ object ListOfCountries {
                 flagId = R.drawable.samoa,
                 hint = "It is a Polynesian island country consisting of two main islands (Savai'i and Upolu), two smaller, inhabited islands (Manono and Apolima), and several smaller, uninhabited islands.",
                 order = (1..193).random()
+            ),
+            CountriesData(
+                country = "San Marino",
+                capital = "San Marino",
+                flagId = R.drawable.sanmarino,
+                hint = "It is a small country (and a European microstate) in Southern Europe enclaved by Italy.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "São Tomé and Príncipe",
+                capital = "Sao Tome",
+                flagId = R.drawable.saotomeandprincipe,
+                hint = "It is an island country in the Gulf of Guinea, off the western equatorial coast of Central Africa.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Saudi Arabia",
+                capital = "Riad",
+                flagId = R.drawable.saudiarabia,
+                hint = "It is the only country with a coastline along both the Red Sea and the Persian Gulf",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Senegal",
+                capital = "Dakar",
+                flagId = R.drawable.senegal,
+                hint = "It is bordered by Mauritania in the north, Mali to the east, Guinea to the southeast, and Guinea-Bissau to the southwest.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Serbia",
+                capital = "Belgrade",
+                flagId = R.drawable.serbia,
+                hint = "It is situated at the crossroads of the Pannonian Plain and the Balkans.",
+                order = (1..193).random()
             )
         )
     }
