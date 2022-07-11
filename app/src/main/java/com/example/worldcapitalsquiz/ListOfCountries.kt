@@ -954,6 +954,83 @@ object ListOfCountries {
                 flagId = R.drawable.peru,
                 hint = "It is bordered in the north by Ecuador and Colombia, in the east by Brazil, in the southeast by Bolivia, in the south by Chile.",
                 order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Philippines",
+                capital = "Manila",
+                flagId = R.drawable.philippines,
+                hint = "It is an archipelagic country in Southeast Asia.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Poland",
+                capital = "Warsaw",
+                flagId = R.drawable.poland,
+                hint = "It has a population of over 38 million and is the fifth-most populous member state of the European Union.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Portugal",
+                capital = "Lisbon",
+                flagId = R.drawable.portugal,
+                hint = "It is a country whose mainland is located on the Iberian Peninsula of Southwestern Europe, and whose territory also includes the Atlantic archipelagos of the Azores and Madeira.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Qatar",
+                capital = "Doha",
+                flagId = R.drawable.qatar,
+                hint = "It shares its sole land border with neighbouring Gulf Cooperation Council monarchy Saudi Arabia to the south, with the rest of its territory surrounded by the Persian Gulf.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Romania",
+                capital = "Bucharest",
+                flagId = R.drawable.romania,
+                hint = "It is a country located at the crossroads of Central, Eastern, and Southeastern Europe.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Russia",
+                capital = "Moscow",
+                flagId = R.drawable.russia,
+                hint = "It is the largest country in the world by area, covering over 17,125,191 square kilometres (6,612,073 sq mi), and encompassing one-eighth of Earth's inhabitable landmass.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Rwanda",
+                capital = "Kigali",
+                flagId = R.drawable.rwanda,
+                hint = "It is a landlocked country in the Great Rift Valley of Central Africa, where the African Great Lakes region and Southeast Africa converge.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Saint Kitts and Nevis",
+                capital = "Basseterre",
+                flagId = R.drawable.saintkittsandnevis,
+                hint = "It is an island country in the West Indies.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Saint Lucia",
+                capital = "Castries",
+                flagId = R.drawable.saintlucia,
+                hint = "It is an island country in the West Indies in the eastern Caribbean Sea on the boundary with the Atlantic Ocean.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Saint Vincent and the Grenadines",
+                capital = "Kingstown",
+                flagId = R.drawable.saintvincentandthegrenadines,
+                hint = "It is located in the southeast Windward Islands of the Lesser Antilles, which lie in the West Indies at the southern end of the eastern border of the Caribbean Sea where the latter meets the Atlantic Ocean.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Samoa",
+                capital = "Apia",
+                flagId = R.drawable.samoa,
+                hint = "It is a Polynesian island country consisting of two main islands (Savai'i and Upolu), two smaller, inhabited islands (Manono and Apolima), and several smaller, uninhabited islands.",
+                order = (1..193).random()
             )
         )
     }
