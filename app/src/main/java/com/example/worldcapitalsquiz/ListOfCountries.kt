@@ -1066,7 +1066,56 @@ object ListOfCountries {
                 flagId = R.drawable.serbia,
                 hint = "It is situated at the crossroads of the Pannonian Plain and the Balkans.",
                 order = (1..193).random()
-            )
+            ),
+            CountriesData(
+                country = "Seychelles",
+                capital = "Victoria",
+                flagId = R.drawable.seychelles,
+                hint = "It is an archipelagic island country consisting of 115 islands in the Indian Ocean at the eastern edge of the Somali Sea.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Sierra Leone",
+                capital = "Freetown",
+                flagId = R.drawable.sierraleone,
+                hint = "It is bordered by Liberia to the southeast and Guinea surrounds the northern half of the nation.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Singapore",
+                capital = "Singapore",
+                flagId = R.drawable.singapore,
+                hint = "It has four official languages: English, Malay, Mandarin, and Tamil.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Slovakia",
+                capital = "Bratislava",
+                flagId = R.drawable.slovakia,
+                hint = "It is bordered by Poland to the north, Ukraine to the east, Hungary to the south, Austria to the southwest, and the Czech Republic to the northwest.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Slovenia",
+                capital = "Ljubljana",
+                flagId = R.drawable.slovenia,
+                hint = "It is bordered by Italy to the west, Austria to the north, Hungary to the northeast, Croatia to the southeast, and the Adriatic Sea to the southwest.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Solomon Islands",
+                capital = "Honiara",
+                flagId = R.drawable.solomonislands,
+                hint = "It is a sovereign country consisting of six major islands and over 900 smaller islands in Oceania.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Somalia",
+                capital = "Mogadishu",
+                flagId = R.drawable.somalia,
+                hint = "The country is bordered by Ethiopia to the west, Djibouti to the northwest, the Gulf of Aden to the north, the Indian Ocean to the east, and Kenya to the southwest.",
+                order = (1..193).random()
+                )
         )
     }
 }
