@@ -905,6 +905,55 @@ object ListOfCountries {
                 flagId = R.drawable.norway,
                 hint = "It is a Nordic country in Northern Europe, the mainland territory of which comprises the western and northernmost portion of the Scandinavian Peninsula.",
                 order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Oman",
+                capital = "Muscat",
+                flagId = R.drawable.oman,
+                hint = "It is situated on the southeastern coast of the Arabian Peninsula, and spans the mouth of the Persian Gulf.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Pakistan",
+                capital = "Islamabad",
+                flagId = R.drawable.pakistan,
+                hint = "It is the world's fifth-most populous country, with a population of almost 242 million, and has the world's second-largest Muslim population.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Palau",
+                capital = "Ngerulmud",
+                flagId = R.drawable.palau,
+                hint = "The nation has approximately 340 islands and connects the western chain of the Caroline Islands with parts of the Federated States of Micronesia.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Panama",
+                capital = "Panama City",
+                flagId = R.drawable.panama,
+                hint = "It is a transcontinental country in Central America[10] and South America, bordered by Costa Rica to the west, Colombia to the southeast.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Papua New Guinea",
+                capital = "Port Moresby",
+                flagId = R.drawable.papuanewguinea,
+                hint = "It is a country in Oceania that comprises the eastern half of the island of New Guinea and its offshore islands in Melanesia.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Paraguay",
+                capital = "Asuncion",
+                flagId = R.drawable.paraguay,
+                hint = "It is bordered by Argentina to the south and southwest, Brazil to the east and northeast, and Bolivia to the northwest.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Peru",
+                capital = "Lima",
+                flagId = R.drawable.peru,
+                hint = "It is bordered in the north by Ecuador and Colombia, in the east by Brazil, in the southeast by Bolivia, in the south by Chile.",
+                order = (1..193).random()
             )
         )
     }
