@@ -1185,6 +1185,48 @@ object ListOfCountries {
                 flagId = R.drawable.syria,
                 hint = "It is a Western Asian country located in the Eastern Mediterranean and the Levant.",
                 order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Tajikistan",
+                capital = "Dushanbe",
+                flagId = R.drawable.tajikistan,
+                hint = "It is bordered by Afghanistan to the south, Uzbekistan to the west, Kyrgyzstan to the north and China to the east.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Tanzania",
+                capital = "Dodoma",
+                flagId = R.drawable.tanzania,
+                hint = "Mount Kilimanjaro, Africa's highest mountain, is in the northeastern part of the country.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Thailand",
+                capital = "Bangkok",
+                flagId = R.drawable.thailand,
+                hint = "It is a country in Southeast Asia, located at the centre of Mainland Southeast Asia.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "East Timor",
+                capital = "Dili",
+                flagId = R.drawable.timorleste,
+                hint = "It comprises the eastern half of the island of Timor, the nearby islands of Atauro and Jaco, and Oecusse, an exclave on the northwestern side of the island surrounded by Indonesian West Timor.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Togo",
+                capital = "Lome",
+                flagId = R.drawable.togo,
+                hint = "It extends south to the Gulf of Guinea where its capital is located.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Tonga",
+                capital = "Nuku'alofa",
+                flagId = R.drawable.tonga,
+                hint = "It is a Polynesian country and also an archipelago consisting of 169 islands, of which 36 are inhabited.",
+                order = (1..193).random()
             )
         )
     }
