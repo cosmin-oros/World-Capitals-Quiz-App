@@ -40,11 +40,54 @@ fun GameScreen(navController: NavController, name: String?) {
     var country = mutableStateOf(getCountry(countriesList, counter))
     //percentage of the circular progress bar
     var percentage = 0F
+    val type: String
+    if (name == "0") {
+        type = "0"
+    }else {
+        type = "1"
+    }
 
     Scaffold(
         modifier = Modifier.fillMaxSize(),
         scaffoldState = scaffoldState
     ) {
+        Button(
+            onClick = {
+                navController.navigate(Screen.GameScreen.withArgs(type))
+            },
+            colors = ButtonDefaults.buttonColors(
+                backgroundColor = Color.Transparent,
+                contentColor = Color.LightGray
+
+            ),
+            modifier = Modifier
+                .padding(10.dp)
+                .border(
+                    width = 5.dp,
+                    brush = Brush.horizontalGradient(
+                        listOf(
+                            Color.Magenta,
+                            Color.Yellow
+                        )
+                    ),
+                    shape = RoundedCornerShape(15.dp)
+                )
+                .width(100.dp)
+                .background(
+                    Brush.horizontalGradient(
+                        colors = listOf(
+                            Color.Transparent,
+                            Color.Transparent
+                        ),
+                        startX = 150f
+                    )
+                )
+        )
+        {
+            Text(text = "Restart")
+        }
+
+
         Column(
             modifier = Modifier.fillMaxSize(),
             verticalArrangement = Arrangement.Center,
