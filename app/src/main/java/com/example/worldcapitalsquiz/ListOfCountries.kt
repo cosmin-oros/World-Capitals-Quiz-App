@@ -502,7 +502,7 @@ object ListOfCountries {
             ),
             CountriesData(
                 country = "Haiti",
-                capital = "Port-au-Prince",
+                capital = "Port au Prince",
                 flagId = R.drawable.haiti,
                 hint = "It is a country located on the island of Hispaniola in the Greater Antilles archipelago of the Caribbean Sea.",
                 order = (1..193).random()
