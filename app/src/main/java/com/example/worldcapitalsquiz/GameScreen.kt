@@ -96,7 +96,7 @@ fun GameScreen(navController: NavController, name: String?) {
             Row {
                Button(
                    onClick = {
-                       if (counter < 193) {
+                       if (counter < 192) {
                            if (textFieldState.lowercase(Locale.getDefault()) == capitalName.lowercase(
                                    Locale.getDefault()
                                )
@@ -114,9 +114,9 @@ fun GameScreen(navController: NavController, name: String?) {
                            }
                        }
 
-                       if (counter == 193){
+                       if (counter == 192){
                            scope.launch {
-                               scaffoldState.snackbarHostState.showSnackbar("Congratulations you got $guessed out of 195")
+                               scaffoldState.snackbarHostState.showSnackbar("Congratulations you got $guessed out of 193")
                                textFieldState = ""
 
                                delay(3000L)
@@ -159,15 +159,15 @@ fun GameScreen(navController: NavController, name: String?) {
 
                 Button(
                     onClick = {
-                        if (counter < 193) {
+                        if (counter < 192) {
                             counter++
                             country.value = getCountry(countriesList, counter)
                             textFieldState = ""
                         }
 
-                        if (counter == 193){
+                        if (counter == 192){
                             scope.launch {
-                                scaffoldState.snackbarHostState.showSnackbar("Congratulations you got $guessed out of 195")
+                                scaffoldState.snackbarHostState.showSnackbar("Congratulations you got $guessed out of 193")
                                 textFieldState = ""
 
                                 delay(3000L)
@@ -224,7 +224,6 @@ fun GameScreen(navController: NavController, name: String?) {
 
         }
     }
-    // !!! implement something when the game end / play again !!!
 }
 
 fun getCountry(countriesList: List<CountriesData>, counter: Int): CountriesData{
