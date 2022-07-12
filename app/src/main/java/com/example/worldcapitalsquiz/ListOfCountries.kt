@@ -1115,7 +1115,77 @@ object ListOfCountries {
                 flagId = R.drawable.somalia,
                 hint = "The country is bordered by Ethiopia to the west, Djibouti to the northwest, the Gulf of Aden to the north, the Indian Ocean to the east, and Kenya to the southwest.",
                 order = (1..193).random()
-                )
+            ),
+            CountriesData(
+                country = "South Africa",
+                capital = "Cape Town",
+                flagId = R.drawable.southafrica,
+                hint = "It is the southernmost country in Africa.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "South Korea",
+                capital = "Seoul",
+                flagId = R.drawable.southkorea,
+                hint = "It is a country in East Asia, constituting the southern part of the Korean Peninsula.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "South Sudan",
+                capital = "Juba",
+                flagId = R.drawable.southsudan,
+                hint = "It is bordered by Ethiopia, Sudan, Central African Republic, Democratic Republic of the Congo, Uganda and Kenya.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Spain",
+                capital = "Madrid",
+                flagId = R.drawable.spain,
+                hint = "It is a country in southwestern Europe with parts of territory in the Atlantic Ocean and across the Mediterranean Sea.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Sri Lanka",
+                capital = "Colombo",
+                flagId = R.drawable.srilanka,
+                hint = "It lies in the Indian Ocean, southwest of the Bay of Bengal, and southeast of the Arabian Sea.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Sudan",
+                capital = "Khartoum",
+                flagId = R.drawable.sudan,
+                hint = "It shares borders with the Central African Republic to the southwest, Chad to the west, Egypt to the north, Eritrea to the northeast, Ethiopia to the southeast, Libya to the northwest, South Sudan to the south.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Suriname",
+                capital = "Paramaribo",
+                flagId = R.drawable.suriname,
+                hint = "It is the smallest sovereign state in South America.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Sweden",
+                capital = "Stockholm",
+                flagId = R.drawable.sweden,
+                hint = "The largest and most populous of the Nordic countries, it borders Norway to the west and north, Finland to the east, and is connected to Denmark in the southwest by a bridge–tunnel across the Öresund.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Switzerland",
+                capital = "Bern",
+                flagId = R.drawable.switzerland,
+                hint = "It is bordered by Italy to the south, France to the west, Germany to the north and Austria and Liechtenstein to the east.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Syria",
+                capital = "Damascus",
+                flagId = R.drawable.syria,
+                hint = "It is a Western Asian country located in the Eastern Mediterranean and the Levant.",
+                order = (1..193).random()
+            )
         )
     }
 }
