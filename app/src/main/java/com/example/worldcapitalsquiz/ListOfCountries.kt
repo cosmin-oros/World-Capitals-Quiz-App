@@ -1227,6 +1227,132 @@ object ListOfCountries {
                 flagId = R.drawable.tonga,
                 hint = "It is a Polynesian country and also an archipelago consisting of 169 islands, of which 36 are inhabited.",
                 order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Trinidad And Tobago",
+                capital = "Port of Spain",
+                flagId = R.drawable.trinidadandtobago,
+                hint = "It is the southernmost island country in the Caribbean.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Tunisia",
+                capital = "Tunis",
+                flagId = R.drawable.tunisia,
+                hint = "It is the northernmost country in Africa.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Turkey",
+                capital = "Ankara",
+                flagId = R.drawable.turkey,
+                hint = "It is a transcontinental country located mainly on the Anatolian Peninsula in Western Asia, with a small portion on the Balkan Peninsula in Southeast Europe.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Turkmenistan",
+                capital = "Ashgabat",
+                flagId = R.drawable.turkmenistan,
+                hint = "It possesses the world's fifth largest reserves of natural gas.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Tuvalu",
+                capital = "Funafuti",
+                flagId = R.drawable.tuvalu,
+                hint = "It is an island country in the Polynesian subregion of Oceania in the Pacific Ocean.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Uganda",
+                capital = "Kampala",
+                flagId = R.drawable.uganda,
+                hint = "The official languages are English and Swahili.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Ukraine",
+                capital = "Kiev",
+                flagId = R.drawable.ukraine,
+                hint = "It is the second-largest European country after Russia.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "United Arab Emirates",
+                capital = "Abu Dhabi",
+                flagId = R.drawable.unitedarabemirates,
+                hint = "It is located at the eastern end of the Arabian Peninsula and shares borders with Oman and Saudi Arabia.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "United Kingdom",
+                capital = "London",
+                flagId = R.drawable.unitedkingdom,
+                hint = "It comprises England, Wales, Scotland, and Northern Ireland.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "USA",
+                capital = "Washington",
+                flagId = R.drawable.unitedstatesofamerica,
+                hint = "It consists of 50 states, a federal district, five major unincorporated territories, 326 Indian reservations, and nine minor outlying islands.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Uruguay",
+                capital = "Montevideo",
+                flagId = R.drawable.uruguay,
+                hint = "It shares borders with Argentina to its west and southwest and Brazil to its north and northeast.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Uzbekistan",
+                capital = "Tashkent",
+                flagId = R.drawable.uzbekistan,
+                hint = "It is a doubly landlocked country in Central Asia.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Vanuatu",
+                capital = "Port Vila",
+                flagId = R.drawable.vanuatu,
+                hint = "It is an island country located in the South Pacific Ocean.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Venezuela",
+                capital = "Caracas",
+                flagId = R.drawable.venezuela,
+                hint = "It is a country on the northern coast of South America, consisting of a continental landmass and many islands and islets in the Caribbean Sea.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Vietnam",
+                capital = "Hanoi",
+                flagId = R.drawable.vietnam,
+                hint = "It is a country in Southeast Asia, at the eastern edge of mainland Southeast Asia.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Yemen",
+                capital = "Sanaa",
+                flagId = R.drawable.yemen,
+                hint = "It is a country in Western Asia, on the southern end of the Arabian Peninsula.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Zambia",
+                capital = "Lusaka",
+                flagId = R.drawable.zambia,
+                hint = "It is a landlocked country at the crossroads of Central, Southern and East Africa, and also is typically referred to as being in Southern Africa at its most central point.",
+                order = (1..193).random()
+            ),
+            CountriesData(
+                country = "Zimbabwe",
+                capital = "Harare",
+                flagId = R.drawable.zimbabwe,
+                hint = "It is bordered by South Africa to the south, Botswana to the south-west, Zambia to the north, and Mozambique to the east.",
+                order = (1..193).random()
             )
         )
     }
