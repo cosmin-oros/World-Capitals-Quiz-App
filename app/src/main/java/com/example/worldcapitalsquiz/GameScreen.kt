@@ -12,12 +12,19 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalInspectionMode
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.input.KeyboardType
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.viewinterop.AndroidView
 import androidx.navigation.NavController
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.AdSize
+import com.google.android.gms.ads.AdView
+import com.google.android.gms.ads.MobileAds
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import java.util.*
@@ -49,7 +56,32 @@ fun GameScreen(navController: NavController, name: String?) {
 
     Scaffold(
         modifier = Modifier.fillMaxSize(),
-        scaffoldState = scaffoldState
+        scaffoldState = scaffoldState,
+        bottomBar = {
+            val isInEditMode = LocalInspectionMode.current
+            if (isInEditMode) {
+                Text(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .background(Color.Red)
+                        .padding(horizontal = 2.dp, vertical = 6.dp),
+                    textAlign = TextAlign.Center,
+                    color = Color.White,
+                    text = "Advert Here",
+                )
+            } else {
+                AndroidView(
+                    modifier = Modifier.fillMaxWidth(0.25F),
+                    factory = { context ->
+                        AdView(context).apply {
+                            setAdSize(AdSize.BANNER)
+                            adUnitId = "ca-app-pub-5116754338374159/4248596887"
+                            loadAd(AdRequest.Builder().build())
+                        }
+                    }
+                )
+            }
+        }
     ) {
         Button(
             onClick = {
@@ -266,6 +298,7 @@ fun GameScreen(navController: NavController, name: String?) {
 
 
         }
+
     }
 }
 
