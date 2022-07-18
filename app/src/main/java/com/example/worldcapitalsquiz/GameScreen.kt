@@ -57,31 +57,6 @@ fun GameScreen(navController: NavController, name: String?) {
     Scaffold(
         modifier = Modifier.fillMaxSize(),
         scaffoldState = scaffoldState,
-        bottomBar = {
-            val isInEditMode = LocalInspectionMode.current
-            if (isInEditMode) {
-                Text(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .background(Color.Red)
-                        .padding(horizontal = 2.dp, vertical = 6.dp),
-                    textAlign = TextAlign.Center,
-                    color = Color.White,
-                    text = "Advert Here",
-                )
-            } else {
-                AndroidView(
-                    modifier = Modifier.fillMaxWidth(0.25F),
-                    factory = { context ->
-                        AdView(context).apply {
-                            setAdSize(AdSize.BANNER)
-                            adUnitId = "ca-app-pub-5116754338374159/4248596887"
-                            loadAd(AdRequest.Builder().build())
-                        }
-                    }
-                )
-            }
-        }
     ) {
         Button(
             onClick = {
