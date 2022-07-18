@@ -1,6 +1,7 @@
 package com.example.worldcapitalsquiz
 
 import android.os.Bundle
+import android.util.Log
 import android.window.SplashScreen
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -24,10 +25,9 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.navigation.compose.rememberNavController
 import com.example.worldcapitalsquiz.ui.theme.WorldCapitalsQuizTheme
-import com.google.android.gms.ads.AdRequest
-import com.google.android.gms.ads.AdSize
-import com.google.android.gms.ads.AdView
-import com.google.android.gms.ads.MobileAds
+import com.google.android.gms.ads.*
+import com.google.android.gms.ads.interstitial.InterstitialAd
+import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -35,6 +35,51 @@ class MainActivity : ComponentActivity() {
         setContent {
             WorldCapitalsQuizTheme {
                 MobileAds.initialize(this@MainActivity)
+                var mInterstitialAd: InterstitialAd? = null
+                var TAG = "MainActivity"
+
+                var adRequest = AdRequest.Builder().build()
+
+                InterstitialAd.load(this,"a-app-pub-5116754338374159/3311005451", adRequest, object : InterstitialAdLoadCallback() {
+                    override fun onAdFailedToLoad(adError: LoadAdError) {
+                        Log.d(TAG, adError?.toString())
+                        mInterstitialAd = null
+                    }
+
+                    override fun onAdLoaded(interstitialAd: InterstitialAd) {
+                        Log.d(TAG, "Ad was loaded.")
+                        mInterstitialAd = interstitialAd
+                    }
+                })
+
+                mInterstitialAd?.fullScreenContentCallback = object: FullScreenContentCallback() {
+                    override fun onAdClicked() {
+                        // Called when a click is recorded for an ad.
+                        Log.d(TAG, "Ad was clicked.")
+                    }
+
+                    override fun onAdDismissedFullScreenContent() {
+                        // Called when ad is dismissed.
+                        Log.d(TAG, "Ad dismissed fullscreen content.")
+                        mInterstitialAd = null
+                    }
+
+                    override fun onAdFailedToShowFullScreenContent(p0: AdError) {
+                        // Called when ad fails to show.
+                        Log.e(TAG, "Ad failed to show fullscreen content.")
+                        mInterstitialAd = null
+                    }
+
+                    override fun onAdImpression() {
+                        // Called when an impression is recorded for an ad.
+                        Log.d(TAG, "Ad recorded an impression.")
+                    }
+
+                    override fun onAdShowedFullScreenContent() {
+                        // Called when ad is shown.
+                        Log.d(TAG, "Ad showed fullscreen content.")
+                    }
+                }
 
                 Scaffold(
                     modifier = Modifier.fillMaxSize(),
@@ -64,6 +109,12 @@ class MainActivity : ComponentActivity() {
                         }
                     }
                 ){
+                    //show interstitial ad (should put this in onclick of a button)
+                    if (mInterstitialAd != null) {
+                        mInterstitialAd?.show(this)
+                    } else {
+                        Log.d("TAG", "The interstitial ad wasn't ready yet.")
+                    }
                     Navigation()
                 }
             }

@@ -60,6 +60,7 @@ fun GameScreen(navController: NavController, name: String?) {
     ) {
         Button(
             onClick = {
+
                 navController.navigate(Screen.GameScreen.withArgs(type))
             },
             colors = ButtonDefaults.buttonColors(
