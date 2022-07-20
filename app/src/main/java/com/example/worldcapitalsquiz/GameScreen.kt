@@ -208,6 +208,7 @@ fun GameScreen(navController: NavController, name: String?) {
 
                 Spacer(modifier = Modifier.width(32.dp))
 
+                /* has to be 192 else it would crash */
                 Button(
                     onClick = {
                         if (counter < 192) {
